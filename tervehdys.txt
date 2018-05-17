@@ -1,0 +1,20 @@
+
+https://upload.wikimedia.org/wikipedia/commons/8/85/Sky-3.jpg
+<html><head><title>Otsikko</title></head>
+<body>
+<?php
+if( isset($_GET['nimi']) ) {
+echo "<h1>Moi ";
+echo $_GET['nimi'];
+echo "</h1>";
+echo var_dump($_GET['nimi']);
+}
+else {
+echo "<p>Moi muukalainen</p>";
+}
+?>
+</body>
+</html>
+<!--
+https://github.com/hartoi/phpHarjoituksia
+-->
